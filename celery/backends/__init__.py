@@ -9,6 +9,7 @@ BACKEND_ALIASES = {
     "mongodb": "celery.backends.mongodb.MongoBackend",
     "tyrant": "celery.backends.tyrant.TyrantBackend",
     "database": "celery.backends.database.DatabaseBackend",
+    "gluondb": "celery.backends.gluondb.DatabaseBackend",
     "cassandra": "celery.backends.cassandra.CassandraBackend",
     "disabled": "celery.backends.base.DisabledBackend",
 }
